@@ -1,0 +1,30 @@
+#ifndef IDENTIFIERS_HPP
+#define IDENTIFIERS_HPP
+
+
+namespace ID
+{
+enum Texture
+{
+    TILE,
+    TILE_FOCUS,
+    TILE_WAY,
+    TILE_BUSY,
+    BLOCK_WALL,
+    BLOCK_NORMAL,
+    BLOCK_WALL_TRANSPARENT,
+    BLOCK_NORMAL_TRANSPARENT,
+    BLOCK_WALL_GUN,
+    BLOCK_WALL_TRANSPARENT_GUN,
+    FIREBALL,
+    ENEMY,
+    PLAYER,
+    BACKGROUND
+};
+
+
+}
+
+
+#endif // IDENTIFIERS_HPP
+
